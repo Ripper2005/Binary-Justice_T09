@@ -50,7 +50,7 @@ This notebook was our original environment for testing the model's inference log
     *   **Crucially, ensure the notebook and the `.pth` file are in the same root directory.**
 
 3.  **Run the Notebook Cells:**
-    *   Run each code cell sequentially from top to bottom by clicking the play button next to each cell or by pressing `Shift + Enter`.
+    *   Run each code cell sequentially from top to bottom by clicking the play button next to each cell or by pressing `Shift + Enter`. (Please use TPUs in colab runtime for faster inference)
     *   The cells will install dependencies, set up the device, and load the face detection and EfficientNet models.
 
 4.  **Upload a Video for Testing:**
