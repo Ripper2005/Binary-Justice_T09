@@ -6,7 +6,7 @@ A hackathon project designed to provide a simple, accessible tool for detecting 
 
 ##  Backend Architecture Overview
 
-The backend is a self-contained Python application, containerized with Docker for seamless deployment. Its primary role is to expose a single API endpoint that accepts a video file and returns a deepfake probability score.
+The backend is a self-contained Python application, containerized with Docker for easy deployment. Its primary role is to expose a single API endpoint that accepts a video file and returns a deepfake probability score.
 
 *   **Framework:** **Flask** was chosen for its lightweight and minimalistic nature, making it perfect for a single-purpose API.
 *   **Machine Learning:** **PyTorch** is used to run the inference on a pre-trained **EfficientNet-B0** model.
